@@ -27,8 +27,12 @@ I did some cleaning and fixed some bugs to run the code. The principle is to mak
 I train the model on 6x6 puzzles of WikiArt (each piece is rotated and translated, missing 0% pieces) for 600 epochs. 
 
 The loss and accuracy are shown below. The training takes 3 days on 1 Nvidia A100 GPU.
-<img src="result\acc.png" width="256"/>
-<img src="result\loss.png" width="256"/>
+
+
+
+| Accuracy | Loss |
+| --- | --- |
+|<img src="result\acc.png" width="256"/> | <img src="result\loss.png" width="256"/> |
 
 
 The training log and the checkpoint file can be downloaded from https://drive.google.com/file/d/1tWTfMOr42DXD4ibQ-BaJBxmh2SS1HNwX/view?usp=sharing
