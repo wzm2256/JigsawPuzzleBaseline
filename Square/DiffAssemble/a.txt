@@ -1,0 +1,5 @@
+python puzzle_diff/train_script.py --version_id version_4945663
+
+# test
+python puzzle_diff/train_script.py --version_id version_4945663 --evaluate True -batch_size 6
+
