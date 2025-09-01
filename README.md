@@ -24,7 +24,7 @@ Working in progress!
 
 
 ### Evaluation
-For square-piece problem, the evaluation is the ratio of pieces that are correctly placed. I use a rotation invariant version of this metric: each image has four GT solutions, which are 0/90/180/270 degree-rotations of the original image. A result is compared to this four GTs, and the highest accuracy is taken as the result.
+For square-piece problem, the evaluation metric is the ratio of pieces that are correctly placed. I use a rotation invariant version of this metric: each image has four GT solutions, which are 0/90/180/270 degree rotations of the original image. A result is compared to these four GTs, and the highest accuracy is taken as the result.
 
 
 
