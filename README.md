@@ -1,6 +1,6 @@
 # Jigsaw puzzle baselines
 
-This repository collect several methods for solving jigsaw puzzle, making them easier to run by adding evaluation code, and fixing bugs.
+This repository collects several methods for solving jigsaw puzzle, making them easier to run by adding evaluation code and fixing bugs.
 
 
 
