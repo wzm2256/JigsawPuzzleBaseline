@@ -8,10 +8,11 @@ This repository collects several methods for solving jigsaw puzzle, making them 
 
 ### Methods
 
+More details can be found in each folder.
 #### 1. Square pieces
-1. MGC: in folder  `Square/PuzzleDemoMGC`
-2. GCL: in folder `Square/PuzzleDemoGCL`
-3. DiffAssemble: in folder `Square/DiffAssemble`
+1. MGC: `Square/PuzzleDemoMGC`
+2. GCL:  `Square/PuzzleDemoGCL`
+3. DiffAssemble: `Square/DiffAssemble`
 
 
 
@@ -20,12 +21,20 @@ This repository collects several methods for solving jigsaw puzzle, making them 
 Working in progress!
 
 
-#### 
 
 
 ### Evaluation
-For square-piece problem, the evaluation metric is the ratio of pieces that are correctly placed. I use a rotation invariant version of this metric: each image has four GT solutions, which are 0/90/180/270 degree rotations of the original image. A result is compared to these four GTs, and the highest accuracy is taken as the result.
 
+#### 1. Square piece
+For square-piece problem, the evaluation metric is the ratio of pieces that are correctly placed. I use a rotation invariant version of this metric: each image has four GT solutions, which are 0/90/180/270-degree rotations of the original image. A result is compared to these four GTs, and the highest accuracy is taken as the result.
+
+Here is the result for 6x6 pieces puzzles of the WikiArt datasets. Note that for MGC and GCL, errors sometimes occur for some samples, then the accuracy of those samples are recorded as 0.
+
+| Method | acc |
+| --- | --- |
+|MGC | 0.63 |
+|GCL | 0.89 |
+|DA | 0.01 |
 
 
 
@@ -33,12 +42,6 @@ For square-piece problem, the evaluation metric is the ratio of pieces that are 
 
 
 ### Citation
-
-
-
-
-
-
 
 DiffAssemble:
 ```
