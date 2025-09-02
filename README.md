@@ -28,7 +28,7 @@ Working in progress!
 #### 1. Square piece
 For square-piece problem, the evaluation metric is the ratio of pieces that are correctly placed. I use a rotation invariant version of this metric: each image has four GT solutions, which are 0/90/180/270-degree rotations of the original image. A result is compared to these four GTs, and the highest accuracy is reported.
 
-Here is the result for 6x6 pieces puzzles of the WikiArt datasets. Note that for MGC and GCL, errors sometimes occur for some samples, then the accuracy of those samples are recorded as 0.
+Here is the result for 6x6 pieces puzzles of the WikiArt datasets. 
 
 | Method | acc |
 | --- | --- |
@@ -36,6 +36,9 @@ Here is the result for 6x6 pieces puzzles of the WikiArt datasets. Note that for
 |GCL | 0.89 |
 |DA | 0.01 |
 
+Note:
+1. For MGC and GCL, errors sometimes occur for some samples, then the accuracy of those samples are recorded as 0.
+2. The result of DA is significantly different from their paper. See details in folder `Square/DiffAssemble`.
 
 
 
