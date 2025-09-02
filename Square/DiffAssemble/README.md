@@ -21,7 +21,7 @@ I did some cleaning and fixed some bugs to run the code. The principle is to mak
 1. The `Adafactor` optimizer causes error as reported in the [issue](https://github.com/IIT-PAVIS/DiffAssemble/issues/1). So I use `Adagrad`, which was commented out in the original code. 
 
 3. Remove useless code for readability. I commented out a huge amount of code like the `Puzzle_Dataset_MP`, `Puzzle_Dataset`, `Puzzle_Dataset_ROT` classes, which are only different by a few lines, and are not used anywhere in the main experiments.
-4. Training script. I only focus on the general task where rotation and piece missing are allowed. As for the WikiArt dataset, there are two versions of training script in folders `singularity/gianscarpe` and `singularity/francesco`, which are only slightly different. I follow `singularity/gianscarpe/train_wikiart_rot.sh` where I remove the `grad_acc` is ignored because it does not exist in the training script. The default parameters are changed according to those parameters.
+4. Training script. I only focus on the general task where rotation and piece missing are allowed. As for the WikiArt dataset, there are two versions of training script in folders `singularity/gianscarpe` and `singularity/francesco`, which are only slightly different. I follow `singularity/gianscarpe/train_wikiart_rot.sh` where I remove the `grad_acc` parameter because it is not used anywhere. The default parameters are changed according to those parameters.
 
 ### Training, checkpoint and results
 I train the model on 6x6 puzzles of WikiArt (each piece is rotated and translated, missing 0% pieces) for 600 epochs. 
