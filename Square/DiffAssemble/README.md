@@ -38,7 +38,7 @@ The loss and accuracy are shown below. The training takes 3 days on 1 Nvidia A10
 The training log and the checkpoint file can be downloaded from https://drive.google.com/file/d/1tWTfMOr42DXD4ibQ-BaJBxmh2SS1HNwX/view?usp=sharing
 
 
-Generally speaking, most of the results are bad, the accuracy (the percentage of pieces that are correctly placed) is about 2%, which is significantly different from the result reported in Tab. 3 in the paper (90.65%), and there is no qualitative results in the paper.
+Generally speaking, most of the results are bad, the accuracy (the percentage of pieces that are correctly placed) is about 2%, which is significantly different from the result reported in Tab. 3 in the paper (90.65%), and there is no qualitative results and training details in the paper for me to check the consistency.
 
 The script for keep training and evaluation is in `a.txt`.
 
