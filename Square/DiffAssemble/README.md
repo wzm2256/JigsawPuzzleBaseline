@@ -45,7 +45,7 @@ The script for keep training and evaluation is in `a.txt`.
 
 
 
-A result is shown below. Note that the method uses a matching algorithm to place each piece in the correct discrete grid. This is not mentioned in the paper. All 17116 test results can be downloaded from https://drive.google.com/file/d/1QIVtY3rr8NpIu4yc9OEMDchUFCV2mcb3/view?usp=sharing. 
+A result is shown below. Note that the method uses a matching algorithm to place each piece in the discrete grid. This is not mentioned in the paper, and I show the result before and after this matching algorithm. All 17116 test results can be downloaded from https://drive.google.com/file/d/1QIVtY3rr8NpIu4yc9OEMDchUFCV2mcb3/view?usp=sharing. 
 
 
 | GT | After matching | Before matching|
